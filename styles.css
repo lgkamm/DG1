@@ -1,0 +1,27 @@
+/* Estilos predefinidos */
+* {
+   font-family: sans-serif;
+   text-align: center;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;background-color: darkblue;
+}
+header{display: grid;grid-template-columns: 100px auto;text-align: center;color: black
+;background-color: grey;gap: 10px;align-items: center;
+}
+
+footer{background-color: grey;color: black;padding: 20px;margin: 50px 0px 0px 0px;}
+
+img{width: 100%;height:100% ;object-fit: cover;}
+body{background-color: darkblue;}
+main{width: 90%;margin: auto;}
+p{padding: 15px;}
+h2{color: black;background-color: darkblue;padding: 20px;margin: 20px 0px;}
+section{margin-top: 70px;background-color: darkblue;}
+article{background-color: darkblue;color: black;padding: 15px;display: grid;grid-template-rows: 100px 200px 150px;align-items: center;}
+#noticia-principal{display: grid;grid-template-rows: 80px 400px 130px;}
+section div{display: grid;grid-template-columns: 1fr 1fr;padding: 15px;gap: 20px;margin: 10px;}
+span{font-weight: bold;}
+nav ul{display: grid;grid-template-columns: 1fr 1fr 1fr;list-style: none;margin-left: 15%;}
+header div{display: grid;grid-template-columns: 70px 1fr;padding-left: 10px;gap: 15px;align-items: center;}
+a{text-decoration: none;color: black;}
